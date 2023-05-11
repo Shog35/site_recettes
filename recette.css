@@ -1,0 +1,158 @@
+body{
+    background-color:#8ba1bb ;
+    font-family: Arial;
+
+}
+
+*{
+    overflow: auto;  /* le conteneur s'adapte automatiquement au contenu */
+}
+p.categorie {background-color: black;
+             color: white;
+             display : inline-block;
+             padding:8px 18px;
+             margin-top: -20px;                     
+             margin-bottom: 0;
+             font-weight: bold;
+             font-size: 25px;
+             font-style: italic;
+}
+div.contenu {
+  
+    box-shadow: 0px 0px 30px black; /* offset-x | offset-y | blur-radius |  color */
+    background-color: white;
+    margin: 60px 25% 80px 25%;  /*Margins are used to create space around elements, outside of any defined borders.top right bottom left soit en pixel soit en % de la page*/
+    padding:0 30px 30px 30px; /*Padding is used to create space around an element's content, inside of any defined borders.*/
+    min-width: 350px;
+    overflow: visible;
+}
+h1{
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+p.description{
+    font-weight: bold;
+    max-width: 600px;
+    display: inline-block; /*The display property specifies if/how an element is displayed.*/
+    /*An inline element does not start on a new line and only takes up as much width as necessary*/
+}
+.centre{
+    
+    text-align: center;
+    width: 100%;
+    
+    
+}
+div.categorie{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: visible;
+}
+div.separateur{
+    height: 1px;
+    width: 100px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+div.info{
+    position: relative;
+}
+
+
+table.info{
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: #6c829dc0;
+    
+    
+}
+table.info td{
+    text-align: center; 
+    font-size: 14px;
+    vertical-align: top;
+}
+
+table.info th{
+    font-size: 16px; 
+    vertical-align: bottom;
+    padding: 5px;
+}
+
+img.info {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: grey;
+}
+
+div.colonne {
+    margin-top: 15px;
+    width: 45%;
+}
+
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid #6c829d;
+}
+div.colonne1{
+        margin-right: 10%;
+        display: inline-block;
+
+}
+div.colonne2{
+    
+    float: right;
+    
+
+}
+div.ingredients p{
+
+    border: 1px solid lightgray;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+table.preparation p.numero {
+    margin: 0;
+    background-color: #6c829d;
+    color: white;
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    padding-top: 4px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+table.preparation td {
+    vertical-align: top;
+    font-size: 14px;
+    
+}
+table.preparation td.preparation_etape {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 4px;
+}
+
+table.preparation tr {
+    height: 40px;
+   
+    
+}
